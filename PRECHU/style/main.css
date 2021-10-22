@@ -1,0 +1,53 @@
+.main-wrapper{
+    display: flex;
+    flex-direction: row;
+    margin: 65px 20px;
+  }
+  .main-img{
+    padding-bottom: 34px;
+  
+  }
+  .main-img img{
+    text-align: center;
+    margin: auto;
+  }
+  .main-title h3{
+    color: #5094f2;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .main-title p{
+    color: gray;
+    text-align: center;
+  }
+  .backet  {
+    display: flex;
+    flex-direction: row;
+  
+    
+  }
+  .shop h2{
+    text-align: center;
+    font-size: 42px;
+    color: grey;
+    margin-bottom: 40px;
+    text-decoration: none;
+    
+  }
+  .text{
+    margin-top: 70px;
+    margin-left: 50px;
+  }
+  .text h3{
+    font-size: 26px;
+    color: gray;
+    text-align: left;
+  }
+  .text p{
+    color: gray;
+    text-align: left;
+    line-height: 27px;
+    font-size: 18px;
+  
+  }

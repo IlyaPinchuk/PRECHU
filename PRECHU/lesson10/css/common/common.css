@@ -1,0 +1,41 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.container {
+    max-width: var(--page-max-width);
+    padding: 15px;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.pv-0 {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.ph-0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.d-row {
+    flex-direction: row;
+}
+
+.d-col {
+    flex-direction: column;
+}

@@ -1,0 +1,101 @@
+.footer-block-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--sub-bg-color);
+}
+.wrapper-brends{
+    display: flex;
+    justify-content: center;
+    
+}
+.wrapper-brends img{
+    margin: 0 15px 80px;
+}
+.footer-block-2{
+    background-image: url(../../imgs/Rectangle-15.png);
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center , center;
+}
+.footer-block-2 div{
+    /* margin-left: 10px; */
+    margin-right: 10px;
+}
+
+ h3{
+     margin: 80px 0 40px;
+     text-transform: uppercase;
+    color:var(--main-text-color);
+    font-size: 24px;
+    font-family: 'Playfair Display', serif;
+
+}
+.magazine{
+    margin-bottom: 100px;
+}
+.magazine p,
+.distribution p{
+    color:var(--main-text-color);
+    max-width: 350px;
+    font-size:var(--font-s) ;
+}
+
+.categories {
+display: flex;
+flex-direction: column;
+margin-left: 10px;
+}
+.categories a{
+    margin: 10px  20px 10px 0;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: var(--main-text-color);
+    border: 1px solid var(--main-bg-color);
+    background-color:var(--main-bg-color);
+}
+
+.categories a:hover{
+    background-color: var(--secondary-bg-color);
+    border: 1px solid var(--secondary-bg-color);
+}
+.wrap-link div{
+    display: flex;
+   
+}
+.distribution{
+    display: flex;
+    flex-direction: column;
+}
+.wrap-form{
+    display: flex;
+    margin-top: 38px;
+}
+input[type='email']{
+    padding: 10px;
+    opacity: 40%;
+}
+input[type='button']{
+    padding: 10px;
+    color: var(--main-text-color);
+    background-color: var(--main-bg-color);
+    border: 1px solid var(--main-bg-color);
+}
+input[type='button']:hover{
+    background-color: var(--secondary-bg-color);
+    border: 1px solid var(--secondary-bg-color);
+}
+.footer-block-3 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px;
+    text-align: center;
+    background-color: var(--main-bg-color);
+    color: var( --color-footer) ;
+}
+.footer-block-3 a{
+    text-decoration: none;
+    color:var( --color-footer);
+}

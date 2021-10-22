@@ -1,0 +1,91 @@
+@media only screen and (max-width:992px){
+
+    .wrapper{
+        padding: 0;
+
+    }
+
+    .wrapper-logo{
+        margin: 10px;
+
+    } 
+   
+    .basket{
+        display: flex;
+        flex-direction:row ;
+    }
+    .text{
+        margin: 10px;
+    }
+}
+@media only screen and (max-width:767px){
+  .iphone{
+    display: none;
+  }
+  .slogan{
+      margin: 100px auto;
+  }
+  .wrapper-menu div .wrp{
+     display: flex;
+  }
+    .wrapper-menu .menu li {
+ 
+    font-size: 15px;    
+    margin: auto;
+    padding: 15px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+
+}
+.main-img{
+    margin: 20px auto;
+    padding-bottom: 0;
+}
+
+
+.wrapper-logo{
+    margin: 15px auto;
+    font-size: 20px;
+}
+
+.main-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.backet{
+    display: flex;
+    flex-direction: column;
+
+}
+.shop{
+    text-align: center;
+}
+.shop img{
+    margin:  20px auto;
+    text-align: center; 
+}
+
+.wrapper .wrapper-menu .menu{
+    margin: auto;
+ 
+}
+
+.text{
+    margin: auto;
+}
+.text h3{
+    text-align: center;
+}
+
+.text p{
+    text-align: justify;
+}
+
+}
+.wrapper-menu{
+   
+    max-width: 767px;
+}

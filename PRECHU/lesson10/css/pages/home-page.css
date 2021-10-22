@@ -1,0 +1,187 @@
+.slide-wrapper {
+    display: flex;
+    height: calc(100vh - 128px);
+    min-height: 700px;
+    background-image: url(../../imgs/top-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    align-items: center;
+}
+
+.slide-logo-wrp {
+    margin: 0 auto;
+}
+
+.slide-desc-wrp {
+    max-width: 730px;
+    text-align: center;
+    margin: 80px auto 0;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: normal;
+    font-size: var(--font-md);
+    color: var(--main-text-color);
+}
+.watch-collection{
+    display: flex;
+    
+}
+.wrapper-collection{
+    background-image: url(../../imgs/8bg-vollection.png);
+    width: 45%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.main-wrapper-watch{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--main-bg-color);   
+}
+.wrepper-title{
+    margin-top: 93px;
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+}
+.wrepper-title img{
+    margin: 50px auto;
+}
+.wrapper-watch{
+    margin-bottom: 93px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.watch-item{
+    display: flex;
+    flex-direction: column;
+}
+.watch-item .img-watch{
+    margin-bottom: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    max-width: 260px;
+    max-height: 325px;
+    
+    background-color: var(--color-bg-watch);
+}
+.buy:first-child{
+    color: var(--main-text-color);
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: var(--font-lg);
+}
+.buy:last-child{
+    color: var(--main-text-color);
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: var(--font-md);
+}
+.wrapper-collection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    
+    color: var(--main-text-color);
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+}
+.wrapper-collection img{
+    margin: 50px auto;
+}
+.wrapper-collection div:last-child{
+    font-size: var(--font-lg);
+    padding: 20px 50px;
+    border: 1px solid  var(--main-text-color);
+    margin-bottom: 50px;
+}
+.watch-collection-2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.wrapper-collection-2{
+    background-image: url(../../imgs/Rectangle-29.png);
+    width: 45%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center , center;
+}
+.wrapper-text{
+    text-align: center;
+    margin: 25px 15px;
+    padding: 0 20px;
+    max-width: 470px;
+    color:var(--main-text-color);
+   
+}
+main a{
+    text-decoration: none;
+    color: var(--main-text-color);
+}
+main a:hover{
+    color: rgb(139, 136, 136);
+}
+.main-wrapper-watch-2{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:var(--main-bg-color);
+    
+}
+
+.link-collection{
+    padding: 20px;
+    margin: 50px 0 100px;
+    font-size: 18px;
+    border: 1px solid var(--main-text-color);
+    text-transform: uppercase;
+}
+.wrapper-new-collection{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--main-bg-color);
+    max-width:1920px;
+}
+
+.wrapper-new-watch{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* max-width: 1100px; */
+    margin: 0 auto;
+}
+.watch-item-1 , .watch-item-2 {
+    display: flex;
+    
+    justify-content: space-around;
+}
+.watch-item-1 div, .watch-item-2  div{
+    display: flex;
+    
+    justify-content: space-around;
+}
+.img-watch{
+    margin: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    color: var(--main-text-color);
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: var(--font-lg);
+}
+.img-watch img{
+    background-color: var(--color-bg-watch);
+}

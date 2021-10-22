@@ -1,0 +1,16 @@
+:root {
+    --main-bg-color: #000000;
+    --sub-bg-color: #0F0F0F;
+    --secondary-bg-color: #1F1F1F;
+    --header-text-color: #969696;
+    --main-text-color: #ffffff;
+    --page-max-width: 1280px;
+    --color-bg-watch:  #191B1C;
+    --color-footer: #d3d3d3;
+
+    --font-xs: 12px;
+    --font-s: 14px;
+    --font-md: 16px;
+    --font-lg: 18px;
+}
+

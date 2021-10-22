@@ -1,0 +1,114 @@
+@media only screen and (max-width:1100px){
+    .footer-block-1 .wrapper-brends{
+        display: grid;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .watch-collection {
+        flex-direction: column;
+    }
+
+    .watch-collection {
+        width: 100%;
+    }
+
+    .watch-collection .main-wrapper-watch {
+        width: 100%;
+    }
+
+    .watch-collection .wrapper-collection {
+        width: 100%;
+        min-height: 710px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    main .watch-collection-2 {
+        flex-direction: column;
+    }
+
+    .watch-collection-2 .main-wrapper-watch-2 {
+        width: 100%;
+    }
+
+    .watch-collection-2 .wrapper-collection-2 {
+        width: 100%;
+
+        min-height: 710px;
+    }
+
+    .wrapper-brends {
+        flex-direction: column;
+    }
+
+    .footer-block-2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .wrap-form {
+        margin-bottom: 50px;
+    }
+
+    .footer-block-2 .magazine {
+        margin: 0;
+
+    }
+
+
+}
+
+@media only screen and (max-width:767px) {
+
+    .watch-item-1,
+    .watch-item-2 {
+        flex-direction: column;
+    }
+    .sub-header-left ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .menu-header-wrapper .container{
+        display: contents;
+        
+    }
+    .navigation nav{
+      justify-content: center;
+    }
+    .logo-wrapper{
+       justify-content: center;
+    }
+    .watch-item{
+        align-items: center;
+    }
+    .wrapper-watch{
+        flex-direction: column;
+    }
+   .footer-block-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .sub-header-wrapper div{
+    justify-content: space-around;
+   }
+}
+@media only screen and (max-width:545px){
+
+    .footer-block-2 div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       }
+    .navigation nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .wrap-form form{
+        display: contents;
+    }
+
+}

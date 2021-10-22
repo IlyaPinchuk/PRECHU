@@ -1,0 +1,75 @@
+header {
+    position: relative;
+}
+
+/*Top header block*/
+header, header a {
+    color: var(--header-text-color);
+    text-decoration: none;
+}
+
+header .sub-header-wrapper {
+    background-color: var(--main-bg-color);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header .sub-header-left ul,
+
+header .sub-header-right ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+header .sub-header-right ul li {
+    margin: 0 5px;
+}
+
+header .sub-header-left ul li:not(:last-child):after {
+    content: '|';
+    margin: 0 10px;
+}
+
+header .sub-header-left .header-phone img {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+/*Header menu*/
+header .menu-header-wrapper {
+    background-color: var(--sub-bg-color);
+}
+
+header .menu-header-wrapper .logo-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+header .menu-header-wrapper .navigation nav {
+    display: flex;
+}
+
+header .menu-header-wrapper .navigation nav ul {
+    display: flex;
+}
+
+header .menu-header-wrapper .navigation nav ul a {
+    text-transform: uppercase;
+    display: flex;
+    height: 100%;
+    transition: .3s;
+    padding: 25px 15px;
+}
+
+header .menu-header-wrapper .navigation nav ul li a:hover,
+header .menu-header-wrapper .navigation nav ul li.active a{
+    background-color: var(--secondary-bg-color);
+}
+
+header .menu-header-wrapper .navigation nav .nav-menu {
+    margin-right: 20px;
+}
